@@ -1,18 +1,20 @@
 #chat{
     display:block;
-    display:none;
+    /* display:none; */
     border:5px solid rgb(168, 155, 155);
     left: 0;
     top: 50px;
     bottom: 56px;
     border-radius: 5px;
     background-color: whitesmoke;
-    width:60%;
-    height:100%;
+    min-height: auto;
+    max-height: none;
     overflow-y: scroll;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     padding-top: 40%;
+    position: fixed;
     
+   
   }
 .info{
     margin-bottom: 20%;
@@ -48,3 +50,17 @@
     background-color: rgb(226, 21, 209);
    }
   .button5 {background-color: royalblue;}
+  /* padding: 0 0 0 1%;
+    webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    top: 50px;
+    bottom: 56px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    max-height: none;
+    background-color: #fff; */

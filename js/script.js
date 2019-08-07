@@ -19,6 +19,7 @@ function cycleBackgrounds() {
            $("#more").toggle();
 
        });
+       $("#chat").hide();
        $('#start-chat').click(function(){
         $('#chat').show()
         $('#chatbox').hide()
