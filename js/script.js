@@ -14,3 +14,17 @@
 //    $(function () {
 //     cycleBackgrounds();
 //    });
+$(document).ready(function(){
+$('#plus').click(function(){
+$('#more').toggle()
+});
+$('#newChat').click(function(){
+$('#random-chat').show()
+$('#chat').hide()
+});
+$('#start-chat').click(function(){
+$('#random-chat').hide()
+$('#chat').show()
+$('#more').hide()
+});
+});

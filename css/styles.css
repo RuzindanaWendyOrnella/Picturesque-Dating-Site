@@ -1,4 +1,4 @@
-div.buttonBlock {text-align: center}
+/* div.buttonBlock {text-align: center}
 #button1{
     
         display:inline-block;
@@ -6,5 +6,45 @@ div.buttonBlock {text-align: center}
         
         width: 250px;margin:0;
         /* line-height: 60px; */
-    
+/*     
 }
+#chatbox1{
+    display: none;
+}
+#more-buttons{
+    display: none;
+}  */
+
+#more{
+    display: none;
+}
+#random-chat{
+    display: none;
+}
+
+
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button {background-color: forestgreen;} 
+  .button2 {background-color: royalblue;} 
+  .button2:hover {
+    background-color: rgb(226, 21, 209);
+   }
+  .button3 {background-color: orange;} 
+  .button4 {background-color: red;}
+  .button4:hover {
+    background-color: rgb(226, 21, 209);
+   }
+  .button5 {background-color: royalblue;}
