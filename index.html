@@ -17,7 +17,7 @@
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#config-web-app -->
-     <div class="containere">
+     <!-- <div class="containere">
       <div class="home">
          
         </div>
@@ -39,38 +39,37 @@
       <a href="#">Lost Your Password?</a>
       <a href="#">Don't have an account?</a>
 
-  </form>
+  </form> -->
 </div>
 <div class="container">
-    <h2 id="randomchat" >Chat with random strangers</h2>
-    <div id="random-chat">
-      <div id="chatbox">
-        <div id="chatbox1">
+  <h2 id="randomchat" >Chat with random strangers</h2>
+  <div id="random-chat">
+    <div id="chatbox">
+      <div id="chatbox1">
           <div id="msg" class="info">
-            <p class="text1">Welcome to Picturesque Free Chat Trial. You must be 18+ to start random chat with strangers.</p>
-            <p class="text2">How To Chat With Strangers Safely?</p>
-            <p class="text3">Don't share any personal information or contacts, don't send any money to strangers.</p>
-            <p>Click here to start your random chat:</p>
-            
-            <p id="start_random"><div><input autofocus="" id="random_name" value="Stranger" maxlength="20"><button class="btn-success"><span></span>Start Chat</button></div></p>
-          </div>
-        </div>
-      </div>
-      <div id="chatnow">
-        <form id="random_chat" class="form-inline">
-          <button id="more" class="btn">+</button>
-          <div id="more-buttons">
-            <button id="next-stranger" onclick="window.location.reload()" class="btn btn-success">New Chat</button>
-            <button class="btn btn-warning" id="request_photo" type="button"> Request Photo</button>
-            <button class="btn btn-error" id="report_random" type="button"> Report Stranger</button>
-          </div>
-          <textarea rows="1" cols="50" class="input textarea" onfocus="if (this.value=='Type Here...') this.value = ''" id="msg" disabled="">Type Here...</textarea>
-          <button type="button" name="send" id="send_message" value="Send" class="btn-success">SEND</button>
-        </form>
+              <p class="text1">Welcome to Picturesque Free Chat Trial. You must be 18+ to start random chat with strangers.</p>
+              <p class="text2">How To Chat With Strangers Safely?</p>
+              <p class="text3">Don't share any personal information or contacts, don't send any money to strangers.</p>
+              <p>Click here to start your random chat:</p>
+              
+              <p id="start_random"><div><input autofocus="" id="random_name" value="Stranger" maxlength="20"><button class="btn-success" id="start-chat"><span></span>Start Chat</button></div></p>
+            </div>
       </div>
     </div>
-  </div>
-</div>
+    <div id="chat">
+        <div id="more">
+            <button id='newChat' class="button button2">New Chat</button>
+            <button class="button button3">Request Photo</button>
+            <button class="button button4">Report Stranger</button>
+          </div>
+        <button id='plus' class="button">+</button>
+        
+        <textarea class="input textarea"rows="1" cols="50" placeholder="Your Message"></textarea>
+        <button class="button button5">SEND</button>
+      </div>
+      </div>
+    </div>
+<!-- </div>
 <div class="slide" style="background-image: url('https://scontent-jnb1-1.cdninstagram.com/vp/b102a6ddfcde539363d650d03e41555e/5DC7C860/t51.2885-15/sh0.08/e35/s750x750/66515959_1073144336221356_735395704479956575_n.jpg?_nc_ht=scontent-jnb1-1.cdninstagram.com');background-size:contain "> <div class="jumbotro text-center">
   <h1>ignite your taste Pizaa</h1>
   
@@ -107,7 +106,7 @@
   
     </form>
   </div>
-</div>
+</div> -->
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
