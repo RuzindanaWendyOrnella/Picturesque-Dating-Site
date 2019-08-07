@@ -2,18 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2017/02/03/08/34/alphabet-2034735_960_720.png">
+    <title>picturesque-dating-site</title>
     <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 <body>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-
-
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#config-web-app -->
+     <header>
+        <div class="header"><br>  
+                <img src="https://cdn.pixabay.com/photo/2017/02/03/08/34/alphabet-2034735_960_720.png" height="70px" width="100px" alt="logo" id="iki">
+                <a class="logo"><h1>Picturesque</h1></a><br>
+                <a class="logo"><h1>Dating</h1></a>      
+                <div class="header-right">
+                  <a href="#index">Home</a>
+                  <a href="#login">Sign in/Sign up</a>
+                  <a href="#chat">Chat Room</a>
+                </div>
+              </div>
+    </header><br><br>
 
+ <div class="jumbotro text-center">
+  <div class="login-box">
+    <h1>Login Here</h1>
+    <form>
+        <input type="text" email name="" placeholder="Enter email" required><br><br><br><br>
+        <input type="text" username="" placeholder="Enter username"  required><br><br><br><br>
+        <input type="text" password="" placeholder="Enter password" required><br><br>
+        <button type="submit">Login</button><br>
+        <a href="#">Lost Your Password?</a>
+        <a href="#">Don't have an account?</a>
+  
+    </form>
+  </div>
+ </div>
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {

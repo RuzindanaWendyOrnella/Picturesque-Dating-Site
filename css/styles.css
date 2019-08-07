@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Miltonian+Tattoo&display=swap');
+body{
+    margin: 0;
+}
+h1{
+ font-family: 'Miltonian Tattoo', cursive;
+ font-size: 20px;
+}
+.header {
+    overflow: hidden;
+    padding: 1px 1px;
+    background-color: rgba(177, 0, 0, 0.137);
+    }
+.header a {
+    margin: 0;
+    font-family: 'Miltonian Tattoo', cursive; 
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px; 
+    
+    }
+    
+.header a.logo {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    }inherit
+.header a:hover {
+        background-color: #ddd;
+        text-decoration: none;
+        color: black;
+    }
+    
+.header a.active {
+    background-color: maroon;
+    color: white;
+    }
+    
+.header-right {
+    float: right;
+    }
+    #iki{
+    float: left;
+    }
+@media screen and (max-width: 500px) {
+        .header a {
+        float: none;
+        display: block;
+        text-align: left;
+        }
+.header-right {
+        float: none;
+        }
+    }
+.login-box {
+            width: 400px;
+            height: 500px;
+            background: rgb(58, 56, 56);
+            color: #fff;
+            left: 70%;
+            top: 60%;
+            position: absolute;
+            box-sizing: border-box;
+            padding-bottom: 100px;
+            padding-left: 100px;
+            transform: translate(-50%, -50%);
+            opacity: 0.9;
+            background-position: left;
+            border-radius: 8px;
+        
+        
+        
+        }
+        
+
+        
+        .login-box input {
+            width: 100px;
+            margin-bottom: 20;
+        }
+        
+        .login-box input[type="text"],
+        input[type="password"] {
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            outline: none;
+            height: 60px;
+            color: #fff;
+            font-size: 16px;
+        }
+        
+        .login-box button[type="submit"] {
+            border: 0;
+            outline: 0;
+            height: 40px;
+            background: rgb(199, 57, 0);
+            font-size: 18px;
+            border-radius: 10px;
+        
+        
+        }
+        
+        .login-box button[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: #000;
+        }
+        
+        .login-box a {
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 20px;
+            color: rgb(247, 247, 247);
+        }
+        
+        .login-box a:hover {
+            color: #ffc107;
+        }
+
+        html {
+            background-size: inherit;
+            background: url("https://image.shutterstock.com/image-photo/love-air-beautiful-young-african-260nw-400220989.jpg") no-repeat center center fixed;
+            background-blend-mode: darken;
+            transition: 1s;
+        }
+        html * { transition: none; }
