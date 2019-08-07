@@ -1,4 +1,10 @@
 div.buttonBlock {text-align: center}
 #button1{
-
+    
+        display:inline-block;
+        text-align: center;
+        
+        width: 250px;margin:0;
+        /* line-height: 60px; */
+    
 }
