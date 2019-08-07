@@ -1,3 +1,12 @@
+.container{
+    display:block;
+    border:2px lightgreen;
+    margin-left: 2%;
+}
+#more-buttons{
+    display: none;
+}
+
 .containere {
     width: 100%;
     height:1000px;

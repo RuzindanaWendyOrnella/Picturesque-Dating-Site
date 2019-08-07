@@ -14,3 +14,9 @@ function cycleBackgrounds() {
    $(function () {
     cycleBackgrounds();
    });
+   $(document).ready(function(){
+       $("#more").onclick(function(){
+           $("#more-buttons").toggle();
+
+       });
+   });
