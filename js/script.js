@@ -11,9 +11,13 @@ function cycleBackgrounds() {
     }, 8000);
    };
    // Document Ready.
+   function reset(){
+    $("#message").val("");
+}
    $(function () {
     cycleBackgrounds();
    });
+   
    $(document).ready(function(){
        $("#plus").click(function(){
            $("#more").toggle();
@@ -35,8 +39,9 @@ function cycleBackgrounds() {
             if(Message!==""){
                 $("div#talk").append("<p>" + Message + "</p>");
             }
-
+            reset();
         });
+        
    });
 
    

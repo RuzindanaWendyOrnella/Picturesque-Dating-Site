@@ -2,19 +2,20 @@
     display:block;
     /* display:none; */
     border:5px solid rgb(168, 155, 155);
-    left: 0;
+    left: 50;
     top: 50px;
-    bottom: 56px;
+    bottom: 30;
     border-radius: 5px;
     background-color: whitesmoke;
     min-height: auto;
-    max-height: none;
+    max-height: 40%;
     overflow-y: scroll;
     /* overflow-x: hidden; */
     padding-top: 40%;
-    position: fixed;
-    
-   
+    position: absolute;
+  }
+  #more{
+    display: none;
   }
 .info{
     margin-bottom: 20%;
