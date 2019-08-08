@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <link rel="icon" href="https://cdn.pixabay.com/photo/2017/02/03/08/34/alphabet-2034735_960_720.png">
+                <title>picturesque-dating-site</title>
+                <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+                <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+                <link href="css/styles.css" type="text/css" rel="stylesheet">
+                <script src="js/jquery-3.4.1.js"></script>
+                <script src="js/scripts.js"></script>
+            </head>
+            <style>
+        html{
+            height: 100%;
+        }
+        body{
+            position: relative;
+            margin: 0;
+            padding-bottom: 6rem;
+            min-height: 100%;
+            background-color: rgb(198, 233, 150);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+            </style>
+            
+<body>
+        <header>
+                <div class="header"> 
+                        <img src="https://cdn.pixabay.com/photo/2017/02/03/08/34/alphabet-2034735_960_720.png" height="70px" width="100px" alt="logo" id="iki">
+                        <a class="logo"><h1>Picturesque</h1></a><br>
+                        <a class="logo"><h1>Dating</h1></a>      
+                        <div class="header-right">
+                          <a href="index.html">Home</a>
+                          <a href="sign.html">Sign in/Sign up</a>
+                          <a href="chat.html">Chat Room</a>
+                          <a class="active" href="#random">Free Trial</a>
+                        </div>
+                      </div>
+            </header>
+        </div>
+    </div>
+    <div class="container">
+            <h2 id="randomchat" >Chat with random strangers</h2>
+            <div id="random-chat">
+              <div id="chatbox">
+                <div id="chatbox1">
+                    <div id="msg" class="info">
+                        <p class="text1">Welcome to Picturesque Free Chat Trial. You must be 18+ to start random chat with strangers.</p>
+                        <p class="text2">How To Chat With Strangers Safely?</p>
+                        <p class="text3">Don't share any personal information or contacts, don't send any money to strangers.</p>
+                        <p>Click here to start your random chat:</p>
+                        
+                        <p id="start_random"><div><input autofocus="" id="random_name" value="Stranger" maxlength="20"><button class="btn-success" id="start-chat"><span></span>Start Chat</button></div></p>
+                      </div>
+                </div>
+              </div>
+              
+              <div id="chat" >
+                  <div id="talk">
+          
+                  </div>
+                  <div id="more" style="top:20%">
+                      <button id='newChat' class="button button2">New Chat</button>
+                      <button class="button button3">Request Photo</button>
+                      <button class="button button4">Report Stranger</button>
+                  </div>
+                  <div>
+                  <button id='plus' class="button">+</button>
+                  <textarea class="input textarea"rows="1" cols="50" placeholder="Your Message" id="message" style="min-height:2%"></textarea>
+                  <button class="button button5" id="submit">SEND</button>
+                </div>
+                </div>
+             
+                </div>
+              </div>
+</body>
+</html>
