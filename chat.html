@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="https://cdn.pixabay.com/photo/2017/02/03/08/34/alphabet-2034735_960_720.png">
+        <title>picturesque-dating-site</title>
+        <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/scripts.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <style>
+        html{
+            height: 100%;
+        }
+        body{
+            position: relative;
+            margin: 0;
+            padding-bottom: 6rem;
+            min-height: 100%;
+            background-color: rgb(247, 212, 242);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+     #container{
+         background-color: rgba(255, 255, 255, 0.438);
+     }
+      #dating{
+        display:flex;
+        flex-wrap: wrap;
+        padding:10px;
+
+      }
+      #dating2{
+        display:flex;
+        flex-wrap: wrap;
+        padding: 15px;
+      }
+      #dating3{
+        text-align: center;
+        display:flex;
+        flex-wrap: wrap;
+        padding: 15px;
+      }
+      #one{
+        padding: 15px;
+        }
+      #two{
+        padding: 15px;
+        }
+        #three{
+            padding: 15px;
+        }
+        #four{
+            padding: 15px; 
+        }
+        #five{
+            padding: 15px; 
+        }
+        #six{
+            padding: 15px; 
+        }
+        #seven{
+            padding: 15px; 
+        }
+        #eight{
+            padding: 15px; 
+        }
+        #nine{
+            padding: 15px; 
+        }
+        #ten{
+            padding: 15px; 
+        }
+        #eleven{
+            padding: 15px; 
+        }
+        #twelve{
+            padding: 15px; 
+        }
+        #un{
+            padding: 15px; 
+        }
+        #deux{
+            padding: 15px; 
+        }
+        #trois{
+            padding: 15px; 
+        }
+        img{
+        
+            border-radius: 50%; 
+        }
+        h4{
+            margin-left:40%;
+        }
+        p{
+            margin-left:40%; 
+        }
+#gif{
+    padding: 20px 20px 20px 20px;
+    }
+    footer{
+    text-align: center;
+  }
+      </style>
+</head>
+<body>
+        <header>
+                <div class="header"> 
+                        <img src="https://cdn.pixabay.com/photo/2017/02/03/08/34/alphabet-2034735_960_720.png" height="70px" width="100px" alt="logo" id="iki">
+                        <a class="logo"><h1>Picturesque</h1></a><br>
+                        <a class="logo"><h1>Dating</h1></a>      
+                        <div class="header-right">
+                          <a href="index.html">Home</a>
+                          <a href="sign.html">Sign in/Sign up</a>
+                          <a class="active" href="#chat">Chat Room</a>
+                        </div>
+                      </div>
+            </header>
+
+   <div id="demo">
+        <div id="container"><br>
+            <h1 style="font-family: 'Berkshire Swash', cursive; font-size: 30px; text-align:center;">Members of our website</h1>
+                <div id="dating3">
+                    <div id="one">
+                        <a href="#form"><img src="https://media.haircutinspiration.com/photos/20190314223105/Michael-Jordans-Short-Haircut-1-1.jpg" height="200px" width="200px"></a>
+                        <h4>Michael,32</h4>
+                        <p>Canada</p>
+                    </div>
+                    <div id="two">
+                        <a href="#form"><img src="https://i.pinimg.com/originals/8a/6f/46/8a6f467b6db4883589b338ca06a784a9.jpg" height="200px" width="200px"></a>
+                        <h4>Robert,30</h4>
+                        <p>Zambia</p>
+                    </div>
+                    <div id="three">
+                        <a href="#form"><img src="https://pbs.twimg.com/media/DPVcZnqX0AUOJgE.jpg" height="200px" width="200px" ></a>
+                        <h4>Carine,25</h4>
+                        <p>Rwanda</p>
+                    </div>
+                    <div id="four">
+                        <a href="#form"><img src="https://i.pinimg.com/736x/fd/ef/9d/fdef9d47c674da86384c9cadec1d137f--handsome-black-men-handsome-man.jpg" height="200px" width="200px"></a>
+                        <h4>Jackson,33</h4>
+                        <p>Rwanda</p>
+                    </div>
+                    <div id="five">
+                        <a href="#form"><img src="https://i.pinimg.com/originals/7f/0c/21/7f0c210245a5fc5f797bbf2951ed7de5.jpg" height="200px" width="200px"></a>
+                        <h4>Dolene,33</h4>
+                        <p>DR Congo</p>
+                    </div>
+                </div>
+        
+          
+                <div id="dating">
+                    <div id="six">
+                        <a href="#form"><img src="https://images.jpost.com/image/upload/f_auto,fl_lossy/t_Article2016_ControlFaceDetect/444086" height="200px" width="200px"></a>
+                        <h4>Becky,40</h4>
+                        <p>South Africa</p>
+                    </div>
+              
+                    <div id="seven">
+                        <a href="#form"><img src="https://cdn.pixabay.com/photo/2018/07/11/22/32/black-man-3532117_960_720.jpg" height="200px" width="200px"></a>
+                        <h4>Logan,27</h4>
+                        <p>Tanzania</p>
+                    </div>
+                    <div id="eight">
+                        <a href="#form"><img src="https://cdn.mg.co.za/crop/content/images/2014/09/24/ethiopianbeauty_landscape.jpg/633x356/" height="200px" width="200px"></a>
+                        <h4>Meghan,24</h4>
+                        <p>Burundi</p>
+                    </div>
+                    <div id="nine">
+                        <a href="#form"><img src="https://media.istockphoto.com/photos/happy-laughing-man-picture-id544358212?k=6&m=544358212&s=612x612&w=0&h=odURMNz2hty8LIfpVahaaUKpGU4vd-UlZx4jy-OAnJA=" height="200px" width="200px"></a>
+                        <h4>Parker,34</h4>
+                        <p>German</p>
+                    </div>
+                    <div id="ten">
+                        <a href="#form"><img src="https://images-na.ssl-images-amazon.com/images/I/A1aXoqqEhFL._SY600_.jpg" height="200px" width="200px"></a>
+                        <h4>Emily,28</h4>
+                        <p>Uganda</p>
+                        </div>
+                
+                </div>
+                <div id="dating2">
+                    <div id="eleven">
+                        <a href="#form"><img src="https://i.dmarge.com/2016/09/long-hair-men-3-1057x1100.jpg" height="200px" width="200px"></a>
+                        <h4>Jacob,37</h4>
+                        <p>Belgium</p>
+                    </div>
+                    <div id="twelve">
+                        <a href="#form"><img src="https://scontent-lax3-1.cdninstagram.com/vp/1b2eaf73d5a1434a267b5aa315f5469d/5DCAEE37/t51.2885-15/e35/66532100_448219489098800_3686869045723565249_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com" height="200px" width="200px"></a>
+                        <h4>Abby,25</h4>
+                        <p>Ivory coast</p>
+                    </div>
+                    <div id="un">
+                        <a href="#form"><img src="https://i0.wp.com/metro.co.uk/wp-content/uploads/2019/07/PRI_78138353.jpg?quality=90&strip=all&zoom=1&resize=768%2C960&ssl=1" height="200px" width="200px"></a>
+                        <h4>Moses,25</h4>
+                        <p>Kenya</p>
+                    </div>
+                    <div id="deux">
+                        <a href="#form"><img src="https://qph.fs.quoracdn.net/main-qimg-cf380f43646918d360d34e31236dbde0" height="200px" width="200px"></a>
+                        <h4>Nancy,20</h4>
+                        <p>Rwanda</p>
+                    </div>
+                    <div id="trois">
+                        <a href="#form"><img src="https://www.kigalitoday.com/IMG/jpg/1512305385_jay_3.jpg" height="200px" width="200px"></a>
+                        <h4>Jay,29</h4>
+                        <p>Rwanda</p>
+                    </div>
+                </div>
+            </div>
+   </div>         
+
+    <footer>
+        <h6>Copyright 2019 © All rights reserved</h6>
+    </footer>
+
+</body>
+</html>

@@ -2,17 +2,21 @@
 body{
     margin: 0;
 }
+#gif{
+    padding: 20px 20px 20px 20px;
+    }
 h1{
  font-family: 'Miltonian Tattoo', cursive;
  font-size: 20px;
 }
 .header {
-    overflow: hidden;
+    overflow: auto;
     padding: 1px 1px;
     background-color: rgba(177, 0, 0, 0.137);
+    margin-bottom: 30%,
     }
 .header a {
-    margin: 0;
+    text-decoration: none;
     font-family: 'Miltonian Tattoo', cursive; 
     float: left;
     color: black;
@@ -34,7 +38,7 @@ h1{
     }
     
 .header a.active {
-    background-color: maroon;
+    background-color: rgba(122, 2, 2, 0.651);
     color: white;
     }
     
@@ -55,27 +59,21 @@ h1{
         }
     }
 .login-box {
+            position: fixed;
             width: 400px;
             height: 500px;
             background: rgb(58, 56, 56);
             color: #fff;
             left: 70%;
             top: 60%;
-            position: absolute;
             box-sizing: border-box;
-            padding-bottom: 100px;
-            padding-left: 100px;
+            padding-bottom: 90px;
+            padding-left: 80px;
             transform: translate(-50%, -50%);
             opacity: 0.9;
             background-position: left;
             border-radius: 8px;
-        
-        
-        
         }
-        
-
-        
         .login-box input {
             width: 100px;
             margin-bottom: 20;
@@ -117,13 +115,26 @@ h1{
         }
         
         .login-box a:hover {
-            color: #ffc107;
+            color: #9b7506;
         }
+/**
+ * Demo Styles
+ */
 
-        html {
-            background-size: inherit;
-            background: url("https://image.shutterstock.com/image-photo/love-air-beautiful-young-african-260nw-400220989.jpg") no-repeat center center fixed;
-            background-blend-mode: darken;
-            transition: 1s;
-        }
-        html * { transition: none; }
+ html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+ footer{
+    
+   position: absolute;
+    text-align: center;
+  }
+ 
+        
