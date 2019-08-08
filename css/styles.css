@@ -1,0 +1,68 @@
+*                               { margin: 0; padding: 0; }
+body                            { font: 12px "Lucida Grande", Sans-Serif; background: url(images/bg.png); }
+h2                              { color: #fa9f00; font: 30px Helvetica, Sans-Serif; margin: 0 0 10px 0; }
+#page-wrap                      { width: 500px; margin: 30px auto; position: relative; }
+
+#chat-wrap                      { border: 1px solid #eee; margin: 0 0 15px 0; }
+#chat-area                      { height: 300px; overflow: auto; border: 1px solid #666; padding: 20px; background: white; }
+#chat-area span                 { color: white; background: #333; padding: 4px 8px; -moz-border-radius: 5px;-webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#chat-area p                    { padding: 8px 0; border-bottom: 1px solid #ccc; }
+
+#name-area                      { position: absolute; top: 12px; right: 0; color: white; font: bold 12px "Lucida Grande", Sans-Serif; text-align: right; }   
+#name-area span                 { color: #fa9f00; }
+
+#send-message-area p            { float: left; color: white; padding-top: 27px; font-size: 14px; }
+#sendie                         { border: 3px solid #999; width: 360px; padding: 10px; font: 12px "Lucida Grande", Sans-Serif; float: right; }
+#chat{
+    display:block;
+    /* display:none; */
+    border:5px solid rgb(168, 155, 155);
+    left: 50;
+    top: 50px;
+    bottom: 30;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    min-height: auto;
+    max-height: 40%;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+    padding-top: 40%;
+    position: absolute;
+  }
+  #more{
+    display: none;
+  }
+.info{
+    margin-bottom: 20%;
+    line-height: normal; 
+    display:block;
+    border:5px solid rgb(168, 155, 155);
+    left: 0;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width:60%;
+    height:70%;
+  }
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  .button {background-color: forestgreen;} 
+  .button2 {background-color: royalblue;} 
+  .button2:hover {
+    background-color: rgb(226, 21, 209);
+   }
+  .button3 {background-color: orange;} 
+  .button4 {background-color: red;}
+  .button4:hover {
+    background-color: rgb(226, 21, 209);
+   }
+  .button5 {background-color: royalblue;}
