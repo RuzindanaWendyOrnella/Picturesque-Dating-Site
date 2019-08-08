@@ -12,11 +12,9 @@ This Website connects people and allow them to chat and date online for finding 
 <h1>Behavior-driven development</h1>
 This is are the requirement:
 *A user enter the system and logs in 
-*The user can also do a random chat for just trying.
-*He can connect with people
+,The user can also do a random chat for just trying.
+,He can connect with people
 
-Testing:
-I did the unit testing but no further testing have been done.
 ## Known Bugs
 No bugs found yet. 
 ## Technologies Used
