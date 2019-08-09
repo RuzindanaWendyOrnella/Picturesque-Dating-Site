@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Miltonian+Tattoo&display=swap');
 body{
     margin: 0;
@@ -167,6 +168,35 @@ h1{
     width:60%;
     height:70%;
   }
+=======
+/* div.buttonBlock {text-align: center}
+#button1{
+    
+        display:inline-block;
+        text-align: center;
+        
+        width: 250px;margin:0;
+        /* line-height: 60px; */
+/*     
+}
+#chatbox1{
+    display: none;
+}
+#more-buttons{
+    display: none;
+}  */
+
+#more{
+    display: none;
+}
+#random-chat{
+    display: none;
+}
+
+
+
+
+>>>>>>> 02e6a31d9b9ec4e3c907008baf53f8d83a190b68
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -178,7 +208,11 @@ h1{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+<<<<<<< HEAD
 }
+=======
+  }
+>>>>>>> 02e6a31d9b9ec4e3c907008baf53f8d83a190b68
   .button {background-color: forestgreen;} 
   .button2 {background-color: royalblue;} 
   .button2:hover {
@@ -189,5 +223,9 @@ h1{
   .button4:hover {
     background-color: rgb(226, 21, 209);
    }
+<<<<<<< HEAD
   .button5 {background-color: royalblue;}
   /* chatbox */
+=======
+  .button5 {background-color: royalblue;}
+>>>>>>> 02e6a31d9b9ec4e3c907008baf53f8d83a190b68
