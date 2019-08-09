@@ -19,7 +19,33 @@ function backgroundSequence() {
         }
     }
     backgroundSequence();
-
+ // Document Ready.
+ function reset(){
+    $("#message").val("");
+}
+   $(function () {
+    cycleBackgrounds();
+   });
+   
+   $(document).ready(function(){
+       $("#plus").click(function(){
+           $("#more").toggle();
+       });
+       $("#chat").hide();
+       $('#start-chat').click(function(){
+        $('#chat').show()
+        $('#chatbox').hide()
+        });
+        $('#newChat').click(function(){
+        $('#chat').hide()
+        $('.info').show()
+        // $('#more').hide()
+        $('#chatbox').show()
+        });
+        $("#submit").click(function(){
+            Message=$("#message").val();
+            if(Message!==""){
+                $("div#talk").append("<p>" + Message + "</p>");
 $(document).ready(function(){
     // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -49,37 +75,4 @@ $("#lin").click(function(){
       // [END createwithemail]
     });
 });
-// Document Ready.
-   function reset(){
-    $("#message").val("");
-}
-   $(function () {
-    cycleBackgrounds();
-   });
-   
-   $(document).ready(function(){
-       $("#plus").click(function(){
-           $("#more").toggle();
-
-       });
-       $("#chat").hide();
-       $('#start-chat').click(function(){
-        $('#chat').show()
-        $('#chatbox').hide()
-        });
-        $('#newChat').click(function(){
-        $('#chat').hide()
-        $('.info').show()
-        // $('#more').hide()
-        $('#chatbox').show()
-        });
-        $("#submit").click(function(){
-            Message=$("#message").val();
-            if(Message!==""){
-                $("div#talk").append("<p>" + Message + "</p>");
-            }
-            reset();
-        });
-        
-   });
 
