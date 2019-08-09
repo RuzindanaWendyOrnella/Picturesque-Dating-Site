@@ -2,6 +2,20 @@
 body{
     margin: 0;
 }
+html {
+	background-size: cover;
+	background: url("https://image.shutterstock.com/image-photo/love-air-beautiful-young-african-260nw-400220989.jpg") no-repeat center center fixed;
+	background-blend-mode: darken;
+	transition: 3s;
+}
+html * { transition: none; }
+  #nin1{
+    margin: 0%;
+    color: white;
+    background-color: rgba(70, 0, 0, 0.582);
+    height: 90px;
+    width: 100%;    
+    }
 #gif{
     padding: 20px 20px 20px 20px;
     }
