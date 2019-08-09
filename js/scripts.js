@@ -19,8 +19,8 @@ function backgroundSequence() {
         }
     }
     backgroundSequence();
- // Document Ready.
- function reset(){
+    // Document Ready.
+   function reset(){
     $("#message").val("");
 }
    $(function () {
@@ -30,6 +30,7 @@ function backgroundSequence() {
    $(document).ready(function(){
        $("#plus").click(function(){
            $("#more").toggle();
+
        });
        $("#chat").hide();
        $('#start-chat').click(function(){
@@ -46,6 +47,11 @@ function backgroundSequence() {
             Message=$("#message").val();
             if(Message!==""){
                 $("div#talk").append("<p>" + Message + "</p>");
+            }
+            reset();
+        });
+        
+   });
 $(document).ready(function(){
     // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
