@@ -49,7 +49,7 @@ $("#lin").click(function(){
       // [END createwithemail]
     });
 });
- // Document Ready.
+// Document Ready.
    function reset(){
     $("#message").val("");
 }
